@@ -4,4 +4,4 @@ var controller = require('../controllers/travel');
 
 router.get('/', controller.travel);
 
-module.exports = routers;
+module.exports = router;
