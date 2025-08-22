@@ -18,14 +18,10 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
-              "src/assets/css/styles.css"
+              "src/assets/css/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ]
           },
           "configurations": {
@@ -75,18 +71,17 @@
               "zone.js/testing"
             ],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
-              "src/assets/css/styles.css"
+              "src/assets/css/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3da6e346-0769-4c51-a0c8-30e4d3ac54d5"
   }
 }

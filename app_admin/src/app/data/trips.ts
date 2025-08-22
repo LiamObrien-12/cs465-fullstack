@@ -1,0 +1,32 @@
+export const trips = [
+  {
+    code: "GALR210214",
+    name: "Gale Reef",
+    length: "4 nights / 5 days",
+    start: "2021-02-14T08:00:00Z",
+    resort: "Emerald Bay, 3 stars",
+    perPerson: "799.00",
+    image: "reef1.jpg",
+    description: "<p>Gale Reef Discover the vibrant underwater world of Gale Reef, a pristine coral ecosystem teeming with marine life. This protected marine sanctuary offers crystal-clear waters and stunning coral formations that create the perfect habitat for tropical fish, sea turtles, and colorful reef creatures.</p><p>Perfect for both beginners and experienced divers, Gale Reef features gentle currents and excellent visibility year-round. The reef's shallow areas are ideal for snorkeling, while deeper sections provide exciting diving opportunities for certified divers.</p>"
+  },
+  {
+    code: "DAWR210315",
+    name: "Dawson's Reef",
+    length: "4 nights / 5 days",
+    start: "2021-03-15T08:00:00Z",
+    resort: "Blue Lagoon, 4 stars",
+    perPerson: "1199.00",
+    image: "reef2.jpg",
+    description: "<p>Dawson's Reef Experience the thrill of Dawson's Reef, an advanced diving destination known for its dramatic underwater landscapes and diverse marine ecosystem. This deep-water reef features impressive coral walls, underwater caves, and canyons that provide shelter for larger marine species including reef sharks, barracuda, and schools of pelagic fish.</p><p>With depths ranging from 40 to 80 feet, Dawson's Reef offers challenging dives for experienced divers. The site is famous for its strong currents that bring nutrient-rich waters, supporting an abundance of marine life and creating spectacular underwater photography opportunities.</p>"
+  },
+  {
+    code: "CLAR210621",
+    name: "Claire's Reef",
+    length: "4 nights / 5 days",
+    start: "2021-06-21T08:00:00Z",
+    resort: "Coral Sands, 5 stars",
+    perPerson: "1999.00",
+    image: "reef3.jpg",
+    description: "<p>Claire's Reef Immerse yourself in the natural beauty of Claire's Reef, a family-friendly diving destination perfect for all skill levels. This sheltered reef system features calm, shallow waters ideal for first-time divers and snorkelers, while offering enough depth and variety to keep experienced divers engaged.</p><p>Claire's Reef is renowned for its colorful soft corals, sea anemones, and the friendly clownfish that call this area home. The site's protected location ensures excellent visibility and minimal currents, making it perfect for underwater photography and marine life observation.</p>"
+  }
+];
